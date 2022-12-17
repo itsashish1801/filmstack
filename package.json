@@ -1,0 +1,11 @@
+{
+  "name": "filmstack",
+  "version": "1.0.0",
+  "description": "Get details about your favourite movies and shows.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Sharma",
+  "license": "ISC"
+}
