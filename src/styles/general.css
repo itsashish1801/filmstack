@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #0f172a;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+ion-icon {
+  font-size: 2.4rem;
+}

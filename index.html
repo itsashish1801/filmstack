@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,10 +18,107 @@
     <title>Film Stack - Your movie database</title>
   </head>
   <body>
-    <div>
-      <div>A</div>
-      <div>B</div>
-      <div>C</div>
+    <div class="page">
+      <nav class="left-sidebar-container">
+        <img
+          src="./src/assets/filmstack-logo.svg"
+          alt="Filmstack logo"
+          class="logo"
+        />
+
+        <div class="left-sidebar-container-content">
+          <div class="left-sidebar-container-content-block">
+            <h3 class="left-sidebar-container-content-block-heading">Menu</h3>
+            <ul class="left-sidebar-container-content-block-list">
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="home-outline"></ion-icon>
+                  <span>Home</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <span>Watchlist</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                  <span>Movies</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="tv-outline"></ion-icon>
+                  <span>TV Shows</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="left-sidebar-container-content-block">
+            <h3 class="left-sidebar-container-content-block-heading">Movies</h3>
+            <ul class="left-sidebar-container-content-block-list">
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>Popular</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="play-outline"></ion-icon>
+                  <span>Now Playing</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="play-skip-forward-outline"></ion-icon>
+                  <span>Upcoming</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="left-sidebar-container-content-block">
+            <h3 class="left-sidebar-container-content-block-heading">
+              TV Shows
+            </h3>
+            <ul class="left-sidebar-container-content-block-list">
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>Popular</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="play-outline"></ion-icon>
+                  <span>Airing Today</span>
+                </button>
+              </li>
+              <li>
+                <button class="btn-left-sidebar">
+                  <ion-icon name="tv-outline"></ion-icon>
+                  <span>On TV</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-container"></main>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
