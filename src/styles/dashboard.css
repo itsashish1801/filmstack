@@ -360,3 +360,49 @@
 .main-movie-header-details-block-data {
   color: var(--primary-600);
 }
+
+.main-movie-cast-container {
+  margin-top: 2.4rem;
+}
+
+.main-movie-cast-container h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-700);
+}
+
+.main-movie-cast-slider {
+  margin-top: 1.6rem;
+  gap: 2.4rem;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.main-movie-cast-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.main-movie-cast-slide-image {
+  width: 13rem;
+  height: 16rem;
+  background: var(--primary-300);
+  border-radius: 8px;
+}
+
+.main-movie-cast-slide {
+  flex-shrink: 0;
+}
+
+.main-movie-cast-slide-details {
+  margin-top: 8px;
+  max-width: 13rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-movie-cast-slide-details-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
