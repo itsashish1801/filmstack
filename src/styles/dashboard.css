@@ -170,6 +170,10 @@
   background-color: var(--primary-200);
 }
 
+.main-content-slider::-webkit-scrollbar {
+  display: none;
+}
+
 /* Right sidebar */
 
 .right-sidebar-container {
