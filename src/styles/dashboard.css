@@ -261,3 +261,102 @@
   background: var(--primary-800);
   color: var(--primary-100);
 }
+
+/* Movie Clicked */
+
+.main-back-button a {
+  text-decoration: none;
+  color: var(--primary-600);
+}
+
+.main-back-button {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.main-back-button ion-icon {
+  font-size: 3.6rem;
+}
+
+.main-back-button:hover {
+  transform: scale(1.2);
+}
+
+.main-movie-content-header {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.main-movie-image {
+  width: 30rem;
+  height: 40rem;
+  background: var(--primary-200);
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+.main-movie-header-content h2 {
+  font-size: 3.2rem;
+  color: var(--primary-800);
+}
+
+.main-movie-header-icons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+  color: var(--primary-600);
+}
+
+.main-movie-header-icons-container ion-icon {
+  color: var(--primary-700);
+}
+
+.main-movie-header-icon-data {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.movie-tags {
+  grid-column: 1 / -1;
+}
+
+.main-movie-header-overview {
+  border-top: 1px solid var(--primary-200);
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.main-movie-header-overview span {
+  font-weight: 600;
+  color: var(--primary-700);
+}
+
+.main-movie-header-overview p {
+  margin-top: 4px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: var(--primary-600);
+}
+
+.main-movie-header-details {
+  border-top: 1px solid var(--primary-200);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.main-movie-header-details-block-title {
+  font-weight: 500;
+  color: var(--primary-700);
+}
+
+.main-movie-header-details-block-data {
+  color: var(--primary-600);
+}
